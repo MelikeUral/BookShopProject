@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black: #1c2a39;
+  --gray: #5c6a79;
+  --purple: #4c3db2;
+}
+
+.navbar{
+  height: 120px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.title{
+  font-weight: bold;
+}
+.menu, .menu_icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  columns: var(--gray);
+  cursor: pointer;
+}
+.menu .active {
+  color: var(--black);
+  font-weight: bold;
+}
+.menu li, .menu_icons li{
+  margin: 0 10px;
+}
+
+.menu_icons li{
+  color: var(--gray);
+}
+
+.basket_icon{
+  position: relative;
+}
+
+.basket_count{
+  position: absolute;
+  right:-0.7rem ;
+  bottom: 0 ;
+  width: 17px;
+  height: 17px;
+  background-color: 	#C51162;
+  opacity: 75%;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.slider{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+}
+
+.slider img {
+  height: 600px;
+}
+
+.store{
+  width: 80%;
+  margin-left: 10%;
+  height: 100px;
+
+}
+
+.book__card{
+ height: 400px;
+
+}
+
+.fos{
+  font-family: "Open Sans", sans-serif;
+}
+
+.gray{
+  color: var(--gray);
+}
+
+.black{
+  color: var(--black);
+}
+
+.fw-bold {
+  font-weight: bold;
+}
