@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yazılım Mektebi | Kitap Mağazası</title>
+    <title>BookShop</title>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -86,9 +86,17 @@
         </button>
       </div>
     </section>
-    <section class="store mt-5">
+    <section class="store my-5">
+      <div class="filter__background"></div>
+      <ul class="filter">
+        <li class="active">All</li>
+        <li>World Classics</li>
+        <li>Suggested</li>
+        <li>Fiction</li>
+
+      </ul>
       <div class="row">
-        <div class="col-5 offset-2">
+        <div class="col-5 offset-2 my-5">
           <div class="row book__card">
             <div class="col-6">
               <img
@@ -99,22 +107,22 @@
                 alt="1984"
               />
             </div>
-            <div class="col-6">
+            <div class="col-6 d-flex flex-column justify-content-between">
                 <div class="book__detail">
                     <span class="fos gray fs-5">George Orwell</span> <br />
                     <span class="fs-4 fw-bold">1984</span><br />
                     <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star"></i>
-                        <span>250 reviews</span>
+                        <span class="gray">250 reviews</span>
                     </span>
                     
               </div>
               
-                <p>
+                <p class="book__description fos gray">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Quae, provident fugiat suscipit debitis iure quod tempore eum
                     aut corporis atque amet sunt, recusandae blanditiis impedit
@@ -125,17 +133,562 @@
                 </p>
 
                 <div>
-                   <span>45£</span> 
-                   <span>65£</span>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
                 </div>
-                <button>ADD BASKET</button>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>  
+        </div>
+        <div class="col-5 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
               
             </div>
           </div>
         </div>
-        <div class="col-5"></div>
+        <div class="col-5 offset-2 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>  
+        </div>
+        <div class="col-5 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-2 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>  
+        </div>
+        <div class="col-5 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-2 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>  
+        </div>
+        <div class="col-5 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-2 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>  
+        </div>
+        <div class="col-5 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-2 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>  
+        </div>
+        <div class="col-5 my-5">
+          <div class="row book__card">
+            <div class="col-6">
+              <img
+                class="img-fluid shadow"
+                width="258"
+                height="400"
+                src="./assets/images/mybooks/1984.png"
+                alt="1984"
+              />
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="book__detail">
+                    <span class="fos gray fs-5">George Orwell</span> <br />
+                    <span class="fs-4 fw-bold">1984</span><br />
+                    <span class="book__star-rate">
+                        <i class="bi bi-star-fill active"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="gray">250 reviews</span>
+                    </span>
+                    
+              </div>
+              
+                <p class="book__description fos gray">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quae, provident fugiat suscipit debitis iure quod tempore eum
+                    aut corporis atque amet sunt, recusandae blanditiis impedit
+                    laudantium similique odio sapiente voluptates qui illo
+                    quisquam sed vel. Molestias voluptatibus magni nam, recusandae
+                    voluptatem sequi sapiente cum sed quas similique veritatis
+                    ipsam accusantium.
+                </p>
+
+                <div>
+                   <span class="black fw-bold fs-4 me-2" >45£</span> 
+                   <span class=" fw-bold  fs-4 old__price">65£</span>
+                </div>
+                <button class="btn__purple">ADD BASKET</button>
+              
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <div class="basket__modal">
+      <div class="basket__items">
+        <i class="bi bi-x"></i>
+        <h2 class="basket__title">Your Items</h2>
+        <ul class="basket__list">
+          <li class="basket__item">
+            <img src="assets/images/mybooks/1984.png" width="100" height="130"  alt="">
+            <div class="basket__item-info">
+              <h3 class="book__name">1984</h3>
+              <span class="book__price">45£</span><br>
+              <span class="book_remove">remove</span>
+            </div>
+            <div class="book__count">
+              <span class="decrease">-</span>
+              <span>2</span>
+              <span class="increase">+</span>
+            </div>
+          </li>
+          <li class="basket__item">
+            <img src="assets/images/mybooks/1984.png" width="100" height="130"  alt="">
+            <div class="basket__item-info">
+              <h3 class="book__name">1984</h3>
+              <span class="book__price">45£</span><br>
+              <span class="book_remove">remove</span>
+            </div>
+            <div class="book__count">
+              <span class="decrease">-</span>
+              <span>2</span>
+              <span class="increase">+</span>
+            </div>
+          </li>
+          <li class="basket__item">
+            <img src="assets/images/mybooks/1984.png" width="100" height="130"  alt="">
+            <div class="basket__item-info">
+              <h3 class="book__name">1984</h3>
+              <span class="book__price">45£</span><br>
+              <span class="book_remove">remove</span>
+            </div>
+            <div class="book__count">
+              <span class="decrease">-</span>
+              <span>2</span>
+              <span class="increase">+</span>
+            </div>
+          </li>         
+        </ul>
+        <div class="basket__total">
+          <span class="fw-bold mb-3 fs-4">Total : 145 £</span>
+          <button class="btn__purple">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
     <script
       type="text/javascript"
       src="assets/bootstrap/js/bootstrap.min.js"
