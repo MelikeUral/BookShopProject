@@ -10,7 +10,7 @@
     "reviewCount": 1938,
     "stock": 1881,
     "imgSource": "./assets/images/mybooks/1984.png",
-    "type": "CLASSIC & SCIENCE FICTIONY"
+    "type": "Science-Fiction"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "reviewCount": 330,
     "stock": 7,
     "imgSource": "./assets/images/mybooks/AnnaKarenina.png",
-    "type": "CLASSIC"
+    "type": "World Classiscs"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "reviewCount": 130,
     "stock": 3,
     "imgSource": "./assets/images/mybooks/chess.png",
-    "type": "FINANCE"
+    "type": "World Classiscs"
   },
   {
     "id": 4,

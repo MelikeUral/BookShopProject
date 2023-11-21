@@ -63,15 +63,19 @@
   font-weight: bold;
 }
 
+.basket_count:empty{
+  display: none;
+}
+
 .slider{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
+  height: 550px;
 }
 
 .slider img {
-  height: 600px;
+  height: 550px;
 }
 
 .store{
@@ -86,6 +90,11 @@
  height: 400px;
 
 }
+
+.book__card img{
+  height: 350px;
+ 
+ }
 
 .fos{
   font-family: "Open Sans", sans-serif;
@@ -135,6 +144,7 @@
   font-weight: bold;
   background-color: transparent;
   transition: all 250ms ease-in-out ;
+  padding: 5px 0;
   
 }
 
@@ -308,4 +318,8 @@
 
 .basket__total button{
   width: 250px;
+}
+
+.total__price:empty + .btn__purple{
+display: none;
 }
